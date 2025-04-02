@@ -11,4 +11,4 @@ Future Improvements:<br/>
 	-Include JavaScript component to contact me<br/>
 	-Include JavaScript for animations and more streamlined transitions<br/>
 	-Continually update courses and skills<br/>
-	-Continually update projects as I learn and gain more experience
+	-Continually update projects as I learn and gain more experience<br/>
