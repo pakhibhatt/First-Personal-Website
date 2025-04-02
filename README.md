@@ -1,0 +1,14 @@
+Welcome to my first personal website! I created this website in October 2024 with updates made in December 2024 and January 2025. 
+This was originally a milestone in the Global Career Accelerator Web Dev program, but was then customized to be used personally.
+
+Technologies used:
+	-HTML
+	-Bootstrap CSS
+	-CodeSandbox
+
+
+Future Improvements:
+	-Include JavaScript component to contact me
+	-Include JavaScript for animations and more streamlined transitions
+	-Continually update courses and skills
+	-Continually update projects as I learn and gain more experience
