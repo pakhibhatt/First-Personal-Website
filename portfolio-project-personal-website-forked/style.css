@@ -1,0 +1,83 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+body {
+  background-color: lightpink;
+  font-family: times new roman;
+}
+
+.container-fluid {
+  font-size: larger;
+}
+
+.collapse {
+  text-align: right;
+}
+
+#profile {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+}
+
+/* Hero Section Styling */
+#hero-section {
+  background-image: url("img/imghero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero-content {
+  color: white;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.7);
+}
+
+p1 {
+  font-size: 18px;
+}
+
+.sections {
+  border: white solid 7px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+#project-type {
+  text-align: left;
+  color: #343a40;
+}
+
+#project {
+  text-align: left;
+}
+
+.accordion-body {
+  text-align: left;
+}
+
+#contact-section h2 {
+  padding-top: 20 px;
+  font-size: 2.5rem;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffd700; /* Golden hover effect */
+}
+
+#footer-section {
+  margin-top: 25px;
+  text-align: center;
+}

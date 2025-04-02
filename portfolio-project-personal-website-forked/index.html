@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="milestone" content="Portfolio" />
+    <title>Pakhi Portfolio</title>
+   
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="nav-link active" aria-current="page" href="#hero-section"
+          ><i class="bi bi-house"></i
+        ></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#mission-section">Mission</a>
+            <a class="nav-link" href="#skills-section">Skills</a>
+            <a class="nav-link" href="#projects-section">Projects</a>
+            <a class="nav-link" href="#classes-section">Relevent Classes</a>
+            <a class="nav-link" href="#contact-section">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section
+      id="hero-section"
+      class="d-flex justify-content-center align-items-center"
+    >
+      <div class="text-center hero-content">
+        <img
+          src="img/profile.jpg"
+          class="img-fluid rounded-circle mb-3"
+          id="profile"
+          alt="Profile"
+        />
+        <h1>Pakhi Bhatt</h1>
+        <p1>Software Engineering Student | Aspiring AI & ML Developer</p>
+      </div>
+    </section>
+
+    <!-- Mission/Meet-me section -->
+    <section id="mission-section" class = "sections">
+      <h1>Mission Statement<br></h1>
+      <p1><br>As a passionate Computer Science student specializing in Software Engineering, 
+        my mission is to design and develop innovative software solutions that enhance user 
+        experiences and solve real-world problems. Through continuous learning and collaboration, 
+        I aim to contribute to projects that push the boundaries of technology, while upholding 
+        values of creativity, empathy, and inclusivity. I am committed to growing my expertise in AI, 
+        machine learning, and web development, empowering me to create impactful digital products that 
+        make a difference in everyday lives.<br></p1>
+
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills-section" class = "sections">
+      <h1>Skills<br><br></h1>
+
+      <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+          <i class="bi bi-globe"><br></i>
+          HTML and CSS/Boostrap
+        </div>
+        <div class="col">
+          <i class="bi bi-globe"><br></i>
+          JavaScript
+        </div>
+        <div class="col">
+          <i class="bi bi-globe"><br></i>
+          Python
+        </div>
+        <div class="col">
+          <i class="bi bi-globe"><br></i>
+          C++
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+    <!--Projects-->
+    <section id="projects-section" class = "sections">
+      <h1>Projects</h1>
+      <h3 id = "project-type"><u>Web Development:</u> </h3>
+      <h5 id="project"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" 
+        href="https://tywtls.csb.app/" 
+        class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+        >Travel Recomendations Website: </a><i>JavaScript</i>
+        <ul>
+          <li>Upgraded a website according to client needs by allowing the website to display travel recommendations based on location, price, and type of home
+          </li>
+          <li>In partnership with Publicis Sapient with the 
+            Global Career Accelerator Program</li>
+        <ul>
+        </h5>
+
+        <h3 id = "project-type"><u><br><br>Object Oriented:</u> </h3>
+        <h5 id="project"><a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" 
+          href="https://drive.google.com/drive/folders/1WuNZ6hzTbB5YOZr3A-afsA8u93k_yMXj?usp=sharing" 
+          class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+        >Presidential Election Analysis: </a><i>C++</i>
+          <ul>
+            <li>Developed a C++ program to process and analyze election data, displaying national, state, and county-level results with precise formatting
+            </li>
+            <li>Implemented object-oriented design, file I/O, and data structures to efficiently handle dynamic candidate and vote data
+            </li>
+          <ul>
+          </h5>
+
+    </section>
+
+
+    <!--Adding Classes I've taken:-->
+    <section id = "classes-section" class = "sections">
+      <h1>Relevant Classes</h1>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <strong>Fall 2023</strong>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p2><u>MATH 180:</u> Differentiation, curve sketching, maximum-minimum problems, related rates, mean-value theorem, antiderivative, Riemann integral, logarithm, and exponential functions.<br></p2>
+              <p2><br><u>ENGL 160:</u> Students write in a variety of genres with an emphasis on argument and sentence-level grammar.</p2>       
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <strong>Spring and Summer 2024</strong>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p2><u>CS 111:</u> Introduction to programming: control structures; variables and data types; problem decomposition and procedural programming; input and output; aggregate data structures including arrays; programming exercises.<br></p2>
+            <p2><br><u>MATH 181:</u> Techniques of integration, arc length, solids of revolution, applications, polar coordinates, parametric equations, infinite sequences and series, power series.<br></p2>
+             <p2><br><u>ENGL 161:</u> Students learn about academic inquiry and complete several writing projects including a documented research paper. <br></p2>
+             <p2><br><u>HON 120:</u> Critically analyze the cultural, economic, geographical, and political processes that influenced historical events. Understand and explain the significance and influence of the past and its connection to current political, scientific, and cultural forces.<br></p2>
+             <p2><br><u>HON 201:</u> Intercultural communication, or communication within and across cultures, is vital to all our lived experiences in a globalized
+              world. <br></p2>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <strong>Fall 2024</strong>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p2><u>CS 141:</u> Data abstraction and modular design; recursion; lists and stacks; dynamic memory allocation; file manipulation; programming exercises.<br></p2>
+              <p2><br><u>CS 151:</u> Discrete mathematics concepts fundamental to computing: propositional logic, predicates and quantifiers; proofs; sets; recursive definitions and induction; functions, relations and graphs; combinatorics and discrete probability; applications.<br></p2>
+              <p2><br><u>BA 494:</u> Globar Career Accelerator: Learn HTML, CSS and Bootstrap frameworks. Create beautiful mobile and desktop experiences using UI/UX best practices. Enhance your portfolio by building front end web apps using JavaScript. Develop listening skills that manage bias.<br></p2>
+              <p2><br><u>MATH 210:</u> Vectors in space, functions of several variables, partial differential and optimization, multiple integrals, vector fields, Green's Theorem, Stokes Theorem.<br></p2>
+              <p2><br><u>IE 342:</u> Probability, random variables, mathematical expectation, discrete and continuous distributions, sampling distributions, estimation theory, and test of hypothesis.</p2>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <strong>Spring 2025</strong>
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p2><u>CS 211:</u> Software development tools and practices; debugging and testing; advanced language features; standard libraries; code management.<br></p2>
+              <p2><br><u>CS 251:</u> Design, usage and analysis of data structures: review of lists, stacks and queues; hash tables, priority queues, search trees, introduction to graphs; searching and sorting; runtime analysis; programming projects and lab exercises.<br></p2>
+              <p2><br><u>CS 277:</u> Communication skills for computing students and professionals in various contexts: technical writing, portfolios, job interviews, demos, sales, with speech organization, visuals, and delivery.<br></p2>
+              <p2><br><u>CS 301:</u> Regular sets and finite automata. Context-free languages and push-down automata. Parsing. Computability theory including Turing machines and decidability.</p2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact-section" class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <div class="social-icons mb-3">
+          <a href="https://www.linkedin.com/in/pakhi-bhatt/" class="text-white me-3">
+            <i class="bi bi-linkedin"></i>
+          </a>
+      
+        <a href="pakhibhatt1210@gmail.com" class="text-white">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <section id="footer-section">
+      <p>© Pakhi Bhatt 2025</p>
+    </section>
+
+
+
+
+    <!-- 
+  		Bootstrap JavaScript script tag from:
+      https://getbootstrap.com/
+  	-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
